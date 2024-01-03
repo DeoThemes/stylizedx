@@ -1,0 +1,20 @@
+{
+	"name": "stylizedx",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint src",
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"packages-update": "wp-scripts packages-update",
+		"typescript": "tsc"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/scripts": "^26.19.0",
+		"classnames": "^2.5.1",
+		"gulp": "^4.0.2"
+	}
+}

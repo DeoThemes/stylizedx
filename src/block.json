@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "stylizedx/style-switcher",
+	"title": "Style Switcher",
+	"description": "Style Switcher.",
+	"textdomain": "stylizedx",
+	"keywords": [ "dark mode", "variations", "switcher" ],
+	"category": "stylizedx-category",
+	"attributes": {
+		"backgroundColor": {
+			"type": "string"
+		},
+		"customBackgroundColor": {
+			"type": "string"
+		},
+		"iconColor": {
+			"type": "string"
+		},
+		"customIconColor": {
+			"type": "string"
+		},
+		"borderColor": {
+			"type": "string"
+		},
+		"customBorderColor": {
+			"type": "string"
+		},
+		"darkBackgroundColor": {
+			"type": "string"
+		},
+		"darkIconColor": {
+			"type": "string"
+		},
+		"darkBorderColor": {
+			"type": "string"
+		}
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css"
+}

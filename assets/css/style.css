@@ -1,0 +1,9 @@
+body,
+.stylizedx-switcher-dark,
+html[data-scheme="dark"] .stylizedx-switcher-light {
+	display: none;
+}
+
+html[data-scheme="dark"] .stylizedx-switcher-dark {
+	display: block;
+}
