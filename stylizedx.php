@@ -5,7 +5,7 @@
  * Version:           0.1
  * Author:            DeoThemes
  * Author URI:        https://deothemes.com
- * Plugin URI:        https://deothemes.com
+ * Plugin URI:        https://ona.deothemes.com/ona-news
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       stylizedx
@@ -21,19 +21,6 @@ if ( ! defined( 'ABSPATH' ) )   exit; // Exit if accessed directly.
 define( 'STYLIZEDX_VERSION', '0.1' );
 define( 'STYLIZEDX_URL', plugin_dir_url( __FILE__ ) );
 define( 'STYLIZEDX_PATH', plugin_dir_path( __FILE__ ) );
-
-
-// switch_json_variation();
-function switch_json_variation() {
-	function prefix_filter_theme_json_theme( $theme_json ) {			
-		$json_file_path = get_template_directory() . '/styles/dark.json';
-		$json_data = wp_remote_get($json_file_path);
-		$decoded_data = json_decode($json_data, true);
-
-		return $theme_json->update_with( $decoded_data );
-	}
-	add_filter( 'wp_theme_json_data_theme', 'prefix_filter_theme_json_theme' );  
-}
 
 if ( ! class_exists( 'StylizedX' ) ) :
 
