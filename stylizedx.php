@@ -86,7 +86,6 @@ if ( ! class_exists( 'StylizedX' ) ) :
 		 */
 		private function includes() {
 			require_once STYLIZEDX_PATH . 'admin/class-stylizedx-admin.php';
-			require_once STYLIZEDX_PATH . 'src/index.php';
 		}
 
 		/**
