@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: DeoThemes <hello@deothemes.com>\n"
 "Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
-"POT-Creation-Date: 2024-01-04 00:37+0000\n"
+"POT-Creation-Date: 2024-01-23 06:06+0000\n"
 "Report-Msgid-Bugs-To: https://deothemes/contact/\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -30,11 +30,11 @@ msgid "DeoThemes"
 msgstr ""
 
 #: admin/class-stylizedx-admin.php:74
-msgid "Select style variaton"
+msgid "Select style variaton and Save changes."
 msgstr ""
 
 #: admin/class-stylizedx-admin.php:75
-msgid "Add Switcher block anywhere on a page"
+msgid "Add Switcher block anywhere on a page."
 msgstr ""
 
 #: admin/class-stylizedx-admin.php:118

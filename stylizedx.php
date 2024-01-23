@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       StylizedX
  * Description:       Style variations color switcher, dark mode for FSE themes
- * Version:           0.1
+ * Version:           1.0.0
  * Author:            DeoThemes
  * Author URI:        https://deothemes.com
  * Plugin URI:        https://ona.deothemes.com/ona-news
@@ -18,7 +18,7 @@
 
 if ( ! defined( 'ABSPATH' ) )   exit; // Exit if accessed directly.
 
-define( 'STYLIZEDX_VERSION', '0.1' );
+define( 'STYLIZEDX_VERSION', '1.0.0' );
 define( 'STYLIZEDX_URL', plugin_dir_url( __FILE__ ) );
 define( 'STYLIZEDX_PATH', plugin_dir_path( __FILE__ ) );
 
@@ -75,6 +75,7 @@ if ( ! class_exists( 'StylizedX' ) ) :
 
 			// Ajax actions
 			add_action( 'wp_ajax_stylizedx_style_switcher_ajax_action', array( $this, 'style_switcher_ajax' ) );
+			add_action( 'wp_ajax_nopriv_stylizedx_style_switcher_ajax_action', array( $this, 'style_switcher_ajax' ) );
 		}
 
 		/**

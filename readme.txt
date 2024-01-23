@@ -5,7 +5,7 @@ Donate link: https://deothemes.com/
 Requires at least: 5.5
 Requires PHP: 7.0
 Tested up to: 6.4
-Stable tag: 0.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,5 +30,5 @@ StylizedX works only with Full Site Editing themes that define style variation s
 
 == Changelog ==
 
-Version 0.1 - January 3, 2024
+Version 1.0.0 - January 23, 2024
 - Initial release

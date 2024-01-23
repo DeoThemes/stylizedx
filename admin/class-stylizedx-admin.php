@@ -71,8 +71,8 @@ class StylizedX_Admin {
 					<div class="stylizedx-body">
 
 						<ol class="stylizedx-list">
-							<li><?php echo esc_html__( 'Select style variaton', 'stylizedx' ) ?></li>
-							<li><?php echo esc_html__( 'Add Switcher block anywhere on a page', 'stylizedx' ) ?></li>
+							<li><?php echo esc_html__( 'Select style variaton and Save changes.', 'stylizedx' ) ?></li>
+							<li><?php echo esc_html__( 'Add Switcher block anywhere on a page.', 'stylizedx' ) ?></li>
 						</ol>
 
 						<?php settings_errors(); ?>

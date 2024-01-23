@@ -115,5 +115,4 @@ export default withColors( {
 	backgroundColor: 'background-color',
 	iconColor: 'fill',
 	borderColor: 'border-color',
-	// darkBackgroundColor: 'background-color',
 } )( StyleSwitcherEdit );
