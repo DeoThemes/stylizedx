@@ -15,7 +15,7 @@ gulp.task( 'bundle', () => {
 			'!package-lock.json',
 			'!webpack.config.js',
 			'!.gitignore',
-		] )
+		], { encoding: false } )
 		.pipe( zip( 'stylizedx.zip' ) )
 		.pipe( gulp.dest( 'bundled' ) );
 } );
