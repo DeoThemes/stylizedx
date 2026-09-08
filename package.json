@@ -18,7 +18,7 @@
 		"gulp": "^5.0.1",
 		"gulp-sort": "^2.0.0",
 		"gulp-wp-pot": "^2.5.0",
-		"gulp-zip": "^5.1.0"
+		"gulp-zip": "^6.1.0"
 	},
 	"overrides": {
 		"lighthouse": "^13.4.1",
