@@ -13,7 +13,7 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"@wordpress/scripts": "^34.2.0",
+		"@wordpress/scripts": "^35.0.0",
 		"classnames": "^2.5.1",
 		"gulp": "^5.0.1",
 		"gulp-sort": "^2.0.0",
